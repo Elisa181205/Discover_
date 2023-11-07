@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(../assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; */
+
+    /*Backgroud: color, image, repeat, podition
+    Forma de simplificar
+    */
+    background:url(../assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+body *{
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+.conteiner{
+    width: 360px;
+    height: 712px;
+    /* border: 1px solid red; */
+    margin : 56px auto 0px;
+}
+
+.profile{
+text-align: center;
+padding: 24px;
+}
+
+.profile img{
+    /* display: block; Para centralizar é necessário colocar o display block*/
+    width: 112px;
+    border-radius: 50%;
+    height: 112px;
+    /* margin:auto; */
+}
+.profile p{
+    font-weight: 600;
+    line-height: 24px;
+
+}
+ul{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+}
+ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    background-color: rgb(255,255,255, 0.1);
+    border:1px solid rgb(255,255,255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: bold;
+    transition: background  0.2s;
+}
+ul li a:hover{
+    background-color: rgb(255,255,255, 0.05);
+    border:1px solid white;
+
+}
+.social-links{
+    display:flex;
+    justify-content: center;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+.social-links a:hover{
+    background-color: rgb(255,255,255, 0.5);
+}
+footer{
+    padding: 24px 0;
+    text-align: center;
+    font-size: 16px;
+}
