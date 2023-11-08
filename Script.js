@@ -10,6 +10,7 @@ function toggleMode(){
     }
     else {
         img.setAttribute("src",'./assets/Avatar.jpeg')
-    }
 
+    }
+/*Fim */
 }
