@@ -56,9 +56,9 @@ padding: 24px;
 
 .profile img{
     /* display: block; Para centralizar é necessário colocar o display block*/
-    width: 112px;
+    width: 200px;
     border-radius: 50%;
-    height: 112px;
+    height: 200px;
     /* margin:auto; */
 }
 .profile p{
