@@ -43,8 +43,8 @@ body *{
     color: var(--text-color);
 }
 .conteiner{
-    width: 360px;
-    height: 712px;
+    min-height: 712px;
+    max-width: 588px ;
     /* border: 1px solid red; */
     margin : 56px auto 0px;
 }
